@@ -1,0 +1,26 @@
+extends: prettier
+
+parserOptions:
+  ecmaVersion: 8
+  sourceType: module
+  ecmaFeatures:
+    experimentalObjectRestSpread: true
+
+globals:
+  async: true
+
+plugins:
+- prettier
+
+env:
+  browser: false
+  node: true
+
+rules:
+  prettier/prettier:
+  - error
+  - printWidth: 120
+    tabWidth: 2
+    semi: false
+    singleQuote: true
+    trailingComma: all

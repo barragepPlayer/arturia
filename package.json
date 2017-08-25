@@ -1,0 +1,30 @@
+{
+  "name": "arturia",
+  "version": "1.0.0",
+  "description": "faas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barragepPlayer/arturia.git"
+  },
+  "author": "wyg <jjwygjj@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barragepPlayer/arturia/issues"
+  },
+  "homepage": "https://github.com/barragepPlayer/arturia#readme",
+  "devDependencies": {
+  "babel-cli": "^6.24.1",
+  "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
+  "babel-plugin-transform-class-properties": "^6.24.1",
+  "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+  "babel-plugin-transform-object-rest-spread": "^6.23.0",
+  "eslint": "^4.2.0",
+  "eslint-config-prettier": "^2.2.0",
+  "eslint-plugin-prettier": "^2.1.2",
+  "prettier": "^1.5.2"
+}
+}
